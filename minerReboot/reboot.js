@@ -4,7 +4,7 @@ AWS.config.update({
     secretAccessKey: "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
 });
 
-var iotdata = new AWS.IotData({endpoint: 'a1s6wepkits1h3-ats.iot.ap-southeast-1.amazonaws.com'});
+var iotdata = new AWS.IotData({endpoint: 'xxxxxxxxxxxxxxxxxxxxxx'});
 
 exports.handler = function(event, context) {
  
